@@ -1,2 +1,5 @@
-# ESP32-Control-and-Monitoring-with-ROS
-Integration of the ESP32 microcontroller with the Robot Operating System (ROS). 
+# Controle pwm para fan
+
+--> pwm_nodo.py = Responsável por mandar o valor pwm para o esp32
+
+--> pwm_receive.ino = Recebe o valor pwm pelo topico `/PwmReceive` e passa para o controlador.
